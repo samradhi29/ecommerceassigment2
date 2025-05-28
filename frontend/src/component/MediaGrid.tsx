@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const MediaGrid: React.FC = () => (
   <div className=" px-6">

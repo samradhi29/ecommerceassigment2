@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const HeroVideo: React.FC = () => (
   <div className="mt-10 px-6 flex justify-center">
