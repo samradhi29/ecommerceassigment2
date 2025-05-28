@@ -19,7 +19,7 @@ const MediaGrid: React.FC = () => (
       </div>
 
       {/* Top Image */}
-      <div className="relative group w-[1000px] h-[350px]">
+      <div className="relative group w-[1300px] h-[350px]">
         <img
           className="w-full h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
           src="top.jpg"
