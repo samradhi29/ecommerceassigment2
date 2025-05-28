@@ -1,10 +1,8 @@
-
-
 const HeroVideo: React.FC = () => (
   <div className="mt-10 px-6 flex justify-center">
-    <div className="relative w-full max-w-[950px] aspect-[950/360] rounded-lg border border-white overflow-hidden">
+    <div className="relative w-full max-w-[1400px] aspect-[16/6] rounded-lg border border-white overflow-hidden">
       <video
-        className="w-[1200px] h-full object-cover"
+        className="w-full h-full object-cover"
         autoPlay
         loop
         muted
