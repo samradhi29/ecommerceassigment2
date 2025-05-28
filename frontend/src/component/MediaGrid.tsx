@@ -5,9 +5,9 @@ const MediaGrid: React.FC = () => (
     {/* Top Row */}
     <div className="flex gap-3 mb-3">
       {/* Video */}
-      <div className=" w-[620px] h-[350px]">
+      <div className=" w-[1200px] h-[350px]">
         <video
-          className="w-full h-full object-cover rounded-lg border border-white transition duration-300 ease-in-out"
+          className="w-[1000px] h-full object-cover rounded-lg border border-white transition duration-300 ease-in-out"
           autoPlay
           loop
           muted
@@ -19,7 +19,7 @@ const MediaGrid: React.FC = () => (
       </div>
 
       {/* Top Image */}
-      <div className="relative group w-[424px] h-[350px]">
+      <div className="relative group w-[1000px] h-[350px]">
         <img
           className="w-full h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
           src="top.jpg"
