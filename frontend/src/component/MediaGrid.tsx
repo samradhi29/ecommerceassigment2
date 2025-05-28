@@ -38,7 +38,7 @@ const MediaGrid: React.FC = () => (
       {/* Jacket Image */}
       <div className="relative group w-[310px] h-[300px]">
         <img
-          className="w-full h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
+          className="w-[400px] h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
           src="jacket.jpg"
           alt="Jacket"
         />
@@ -52,7 +52,7 @@ const MediaGrid: React.FC = () => (
       {/* Cut Image */}
       <div className="relative group w-[310px] h-[300px]">
         <img
-          className="w-full h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
+          className="w-[400px] h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-sm"
           src="cut.jpg"
           alt="Cut"
         />
@@ -66,7 +66,7 @@ const MediaGrid: React.FC = () => (
     {/* Logo Image with Special Hover */}
 <div className="relative group w-[310px] h-[300px]">
   <img
-    className="w-full h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-[1px]"
+    className="w-[400px] h-full object-cover rounded-[5px] transition duration-300 ease-in-out group-hover:blur-[1px]"
     src="logo.jpg"
     alt="Logo Design"
   />
