@@ -20,7 +20,7 @@ const navigate = useNavigate();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/address', formData);
+      await axios.post('https://ecommerceassigment2-3.onrender.com/api/address', formData);
       alert('Address saved successfully!');
       setFormData({
         firstName: '',
