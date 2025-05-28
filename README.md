@@ -14,7 +14,8 @@ A fully responsive ecommerce website built with **React**, **TypeScript**, **Tai
 ---
 
 ## Project Structure
-
+##liveurl 
+https://ecommerce23-8frc.onrender.com/
 ### Frontend (`/client`)
 
 - **Common Components:**  
